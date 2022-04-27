@@ -1,6 +1,6 @@
 # TS Boiler Plate for RedM UI
 
-as a hobby coder i did not find a source to putting together a TS workspace. i am using this template for coding RedM UI, like menus and other interactive on screen UI. this is more for me but i am sharing because sharing is caring :P
+as a hobby coder i did not find a source for putting together a TS workspace. i am using this template for coding RedM UI, like menus and other interactive on screen UI. this is more for me but i am sharing because sharing is caring :P
 
 this is very basic and should not be considered production ready. just a simple workspace that works.
 
