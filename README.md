@@ -10,10 +10,10 @@ the main idea is to be able to code more accurately with less time debugging. yo
 
 # TS NOTES
 
-install or update cmd > npm install -g typescript@latest
-setting up a new tsconfig.json in terminal > tsc --init
-checking ts version terminal > tsc -v
-to auto compile to .js on save > tsc -w
+- install or update cmd > npm install -g typescript@latest
+- setting up a new tsconfig.json in terminal > tsc --init
+- checking ts version terminal > tsc -v
+- to auto compile to .js on save > tsc -w
 
 # Using TS NOTES
 
