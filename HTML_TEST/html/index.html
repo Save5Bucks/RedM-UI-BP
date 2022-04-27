@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="/html/app.css" />
+  </head>
+  <body id="body">
+    <div class="frameOverlay"></div>
+    <div class="draggable resizable">
+      <div style="text-align: center" class="handle">Drag Me</div>
+      <!-- any youtube video put /embed and remove watch?v= full link https://www.youtube.com/watch?v=3wcCFhybQRo -->
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/3wcCFhybQRo"
+        frameborder="0"
+        allowfullscreen=""
+      ></iframe>
+    </div>
+    <div class="main_container">
+      <div class="text_container">
+        <div class="main_text">TEST TEXT</div>
+      </div>
+      <div class="btn_container">
+        <button id="btn_c">CLICK</button><button id="btn_d">DELETE</button>
+      </div>
+    </div>
+  </body>
+  <!-- script tag needs to have "module" for import and export to work -->
+  <!-- ../ one up <> / root directory <> ./current directory -->
+  <script type="module" src="../js/app.js"></script>
+  <!-- need to load jquery before the js script -->
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    type="text/javascript"
+  ></script>
+  <!-- need to load jquery ui after jquery but before the jquery script -->
+  <script
+    src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"
+    type="text/javascript"
+  ></script>
+  <!-- jquery functions -->
+  <script src="../jq/drag_iframe.js"></script>
+  <!-- background as video -->
+  <iframe
+    id="background-video"
+    src="https://www.youtube.com/embed/cJp307Ugeyk?&autoplay=1&mute=1&controls=0&loop=1"
+    allow="autoplay;"
+    allowfullscreen
+  >
+  </iframe>
+</html>

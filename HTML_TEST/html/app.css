@@ -1,0 +1,85 @@
+.main_container {
+  display: block;
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-color: dimgray;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-style: solid;
+  border-color: silver;
+}
+.main_text {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  color: rgb(0, 0, 0);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: auto;
+}
+.text_container {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-style: solid;
+  border-radius: 1px;
+  border-color: black;
+}
+#btn_c {
+  position: -webkit-sticky;
+  background-color: gray;
+  width: 100px;
+  height: 50px;
+}
+#btn_d {
+  position: -webkit-sticky;
+  background-color: gray;
+  width: 100px;
+  height: 50px;
+}
+
+.btn_container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 85%;
+  left: 50%;
+}
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: fill;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.handle {
+  width: 558px;
+  background: #ccc;
+  border: 1px solid #000;
+  border-radius: 4px;
+  height: 23px;
+  margin-bottom: -3px;
+}
+#body {
+  overflow: hidden;
+}
+
+.frameOverlay {
+  height: 100%;
+  width: 100%;
+  background: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+  overflow: clip;
+}
