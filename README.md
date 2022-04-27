@@ -17,11 +17,11 @@ to auto compile to .js on save > tsc -w
 
 # Using TS NOTES
 
--- the tsconfig.json is a huge part of making modules work. the settings in this example are setup correctly as of 4/2022.
--- module needs to be type in script tag <script type="module" src="./js/app.js"></script> of the html script
--- in the import you need to call the ./file.js to work in browser calling the ./file in a browser wont work, ./file works for non browser programs.
--- working in typescript is very similar to just working in js. it seems like compiling to es2016 that theres is not much that changes in the .js.
--- i am finding that the typescript intellisense is very intuitive.
--- in the tsconfig using the "outDir": "js" is very useful for putting the files in the project directory.
+- the tsconfig.json is a huge part of making modules work. the settings in this example are setup correctly as of 4/2022.
+- module needs to be type in script tag <script type="module" src="./js/app.js"></script> of the html script
+- in the import you need to call the ./file.js to work in browser calling the ./file in a browser wont work, ./file works for non browser programs.
+- working in typescript is very similar to just working in js. it seems like compiling to es2016 that theres is not much that changes in the .js.
+- i am finding that the typescript intellisense is very intuitive.
+- in the tsconfig using the "outDir": "js" is very useful for putting the files in the project directory.
 
 # discord <Flinn#6171>
