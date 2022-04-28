@@ -13,7 +13,7 @@ the main idea is to be able to code more accurately with less time debugging. yo
 - install or update cmd > npm install -g typescript@latest
 - setting up a new tsconfig.json in terminal > tsc --init
 - checking ts version terminal > tsc -v
-- to auto compile to .js on save > tsc -w
+- to auto compile to .js on save terminal> tsc -w
 
 # Using TS NOTES
 
